@@ -519,21 +519,22 @@ Guidelines
 
 ---
 
-📜 License
+## 📜 License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
----
-
-🙏 Acknowledgements
-
-· Termux — the amazing Android terminal emulator
-· Kali Linux — for the XFCE4 aesthetic inspiration
-· Flask — the lightweight WSGI framework
-· Font Awesome — icons
-· Inter & Fira Code — typography
+**Copyright © 2025 Julius Mwangi Waweru**
 
 ---
+
+## 👤 Author
+
+**Julius Mwangi Waweru**
+
+- GitHub: [@juliusmwangi](https://github.com/redirect-param)
+- Project: [Termux WebOS](https://github.com/redirect-param/termux-GUI)
+
+If you use this project, a link back to the repo is greatly appreciated.
 
 ⭐ Star History
 
