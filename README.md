@@ -181,8 +181,8 @@ Step 4 — Clone or download the project
 
 ```bash
 cd ~
-git clone https://github.com/redirect-param/termux-webos.git
-cd termux-webos
+git clone https://github.com/redirect-param/termux-GUI.git
+cd termux-GUI
 ```
 
 Or simply download termuxOS-v2.5.0.py into a folder.
