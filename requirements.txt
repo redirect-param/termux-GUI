@@ -1,0 +1,43 @@
+# ============================================================
+# Termux WebOS v2.5.0 — Python Dependencies
+# ============================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# Termux note: prefer `pkg install python-flask` if pip fails,
+# or use `pip install --break-system-packages -r requirements.txt`
+# ============================================================
+
+# --- Web Framework ---
+Flask>=3.0.0,<4.0.0
+Werkzeug>=3.0.0,<4.0.0
+
+# --- WSGI Server (for production / LAN access) ---
+# Optional: use `waitress` for a cross-platform production server
+# (gunicorn needs fcntl which is unreliable on Android/Termux)
+waitress>=3.0.0,<4.0.0
+
+# --- Data Validation (lightweight) ---
+# Flask already depends on these, but pinning ensures stable behavior
+itsdangerous>=2.1.0,<3.0.0
+click>=8.1.0,<9.0.0
+Jinja2>=3.1.0,<4.0.0
+MarkupSafe>=2.1.0,<4.0.0
+blinker>=1.7.0,<2.0.0
+
+# ============================================================
+# NOTES
+# ============================================================
+# • `sqlite3`, `subprocess`, `shutil`, `mimetypes`, `base64`,
+#   `json`, `uuid`, `threading`, `signal`, `os`, `re`, `time`,
+#   `datetime` — all from the Python Standard Library.
+#   No extra packages needed.
+#
+# • `termux-api` is a *shell package*, not a Python package.
+#   Install it with:  pkg install termux-api
+#
+# • On Termux, if pip complains about "externally-managed-environment",
+#   use one of:
+#       pip install --break-system-packages -r requirements.txt
+#       pkg install python-flask python-waitress
+# ============================================================
