@@ -181,7 +181,7 @@ Step 4 — Clone or download the project
 
 ```bash
 cd ~
-git clone https://github.com/<your-username>/termux-webos.git
+git clone https://github.com/redirect-param/termux-webos.git
 cd termux-webos
 ```
 
