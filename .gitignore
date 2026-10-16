@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Termux WebOS runtime
+termux_gui.db
+termux_gui.db-journal
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
